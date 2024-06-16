@@ -1,11 +1,15 @@
 #include<stdio.h>
 int main()
 {
-	float a,b,c,avg;
-	printf("Enter three numbers for avarage it ");
-	scanf("%f%f%f",&a,&b,&c);
-	avg=(a+b+c)/3;
-	printf("avarage= %f",avg);
-	return 0;
+  float p,r,t,SI;
+  printf("Enter Principal balance ");
+  scanf("%f",&p);
+  printf("Enter Rate of interest ");
+   scanf("%f",&r);
+  printf("Enter time ");
+   scanf("%f",&t);
+   SI=(p*r*t)/100;
+   printf("Simple interest = %f",SI);
+   return 0;
 }
 		
