@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	float x1,x2,y1,y2,X,Y,D;
+	printf("enter the value of x1,x2,y1,y2 : ");
+	scanf("%f%f%f%f",&x1,&x2,&y1,&y2);
+	
+	X=pow((x2-x1),2);
+	Y=pow((y2-y1),2);
+	D=sqrt (X+Y);
+	printf("D=%f",D);
+	return 0;
+	
+}
