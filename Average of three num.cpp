@@ -5,7 +5,7 @@ int main()
 	printf("Enter three numbers for avarage it ");
 	scanf("%f%f%f",&a,&b,&c);
 	avg=(a+b+c)/3;
-	printf("avarage= %f",avg);
+	printf("average= %f",avg);
 	return 0;
 }
 		
