@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    char chr;
+    printf("Enter a letter : ");
+    scanf("%c",&chr);
+    if (chr=='A'||chr=='a'||chr=='E'||chr=='e'||chr=='I'||chr=='i'||chr=='O'||chr=='o'||chr=='U'||chr=='u')
+    {
+    	printf("VOWEL");
+	}
+	else
+	{
+		printf("Not VOWEL");
+	}
+	return 0;
+}
