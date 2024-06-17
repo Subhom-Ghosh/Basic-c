@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	char operation;
+	int num1,num2;
+	printf("Enter operation : ");
+	scanf("%c",&operation);
+	printf("Enter number");
+	scanf("%d%d",&num1,&num2);
+	switch (operation)
+	{
+		case '+':printf("\n addition=%d",num1+num2 );
+		break;
+			case '-':printf("\n substraction=%d",num1-num2 );
+		break;
+			case '*':printf("\n multiplication=%d",num1*num2 );
+		break;
+			case '/':printf("\n division=%d",num1/num2);
+		break;
+		default : printf("wrong input");
+	}
+	return 0;
+}
