@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	float I,r,t,P,A;
+	printf("Enter P,r,t");
+	scanf("%f%f%f",&P,&r,&t);
+	
+	A=(1+r/100);
+	I=P*(pow(A,t));
+	printf("INEREST=%f",I);
+	return 0;
+}
