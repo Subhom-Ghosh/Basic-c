@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int a;
+	int b;
+		printf("Enter first variable a=");
+	scanf("%d",&a);
+		printf("Enter second variable b=");
+	scanf("%d",&b); 
+	a=a+b;
+	b=a-b;
+	a=a-b;  
+		printf("After swapping a=%d",a);
+		printf("\nb=%d",b);
+	
+	
+	
+	
+	return 0;
+}
