@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int i,n,c;
+	printf("Enter the range \n");
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	{
+	c=pow(i,3)-1;
+	printf("%d\t",c);
+	}
+	return 0;
+}
