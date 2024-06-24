@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	int i,j,n,arr[50],evensum=0,oddsum=0;
+	printf("Enter the number of elements ");
+	scanf("%d",&n);
+	printf("Enter array element ");
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&arr[i]);
+	}
+	for(i=0;i<n;i++)
+	{
+		if(arr[i]%2==0)
+		evensum=evensum+arr[i];
+		else
+		oddsum=oddsum+arr[i];
+	}
+	printf("the addition of even numbers are %d",evensum);
+		printf("the addition of odd numbers are %d",oddsum);
+		return 0;
+}
