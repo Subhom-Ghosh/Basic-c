@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main()
+{
+int arr[10], i,j,n,flag=0;
+printf("Enter number of elements: ");
+scanf("%d", &n);
+printf("Enter the numbers: ");
+for(i=0; i<n; i++)
+{
+scanf("%d", &arr[i]);
+}
+
+for(i=0,j=n-1;i<j; i++,j--) 
+{
+if(arr[i]!=arr[j])
+{
+flag=1;
+break;
+}
+}
+if(flag==0)
+printf("Palindrome array");
+else
+printf("Not a Palindrome array");
+return 0;
+}
