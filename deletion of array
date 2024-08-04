@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+int arr[50], i,n,val,pos;
+printf("Enter the size of the array: ");
+scanf("%d", &n);
+printf("Enter the numbers of the array: ");
+for(i=0; i<n; i++)
+{
+scanf("%d", &arr[i]);
+}
+printf("Enter the position where you want to delete: ");
+scanf("%d", &pos);
+for(i=pos-1; i<n; i++)
+{
+arr[i]=arr[i+1]; //shift each element to the left from the position where value is to be deleted to last
+}
+printf("The resultant array is: ");
+for(i=0;i<n-1; i++)
+{
+printf("%d ",arr[i]); //print the resultant array
+}
+return 0;
+}
